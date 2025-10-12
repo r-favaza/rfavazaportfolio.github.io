@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Software Project Portfolio</title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <h1 class="site-title">Ray Favaza</h1>
+                <p class="site-subtitle">Software Development Portfolio</p>
+        </header>
+
+        <main>
+            <section id="projects" class="projects-section">
+                <div class="container">
+                    <h2>Featured Projects</h2>
+
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3>Interactive Freshman Design Expo Map</h3>
+                            <p>A basic python application built using OpenPyXL and PyQT to offer users project information about the projects available ate the freshamn design expo.</p>
+                            <p>My Part: For this project, I was in charge of getting the UI of the project linked to the GPIO component, a physical map with LED lights showing the floor and section of the searched project. 
+                                This proved more complicated than expected, due to some harware limitations associated with the Raspberry Pi. Once I realized that the Raspberry Pi would not interact correctly with the Program, 
+                                I created a "duct tape" style workaround, in which the project's information was displayed on a 2nd monitor, and a user would have to manually ytpe in a code for the projects floor and section to 
+                                get the LED map to light up</p>
+                            <a href="https://github.com/r-favaza/CSC132Final" class="project-link">View on GitHub</a>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>Audire - FOSS Alternative to Shazam - Additions (IN PROGRESS)</h3>
+                            <p>Audire is a free and open source alternative to the app Shazam. My team added multiple features to the application.</p>
+                            <p>My Part: I was tasked with adding a lyrics display to the song's retreival page. I did this by using the Genius API to search for the song that the app recognized, then using the retreived metadata, 
+                                I created a function to parse the metadata for a url to the song's page on the Genius website, then used a webscraper to retreive those lyrics, and display them in app</p>
+                            <a href="https://github.com/ref020/TeamSound403" class="project-link">View on GitHub</a>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>2022-2023 VEXU Spin Up Robot Code</h3>
+                            <p>Robot code for a 15 inch and an 18 inch robot to pickup and shoot small disks from various points on a 12x12 ft field. Written in C++ with both driver control and autonomous portions</p>
+                            <a href="https://github.com/ref020/2022-223VexUSpinUpRobotCode" class="project-link">View on GitHub</a>
+                        </div>
+
+                        <div class ="project-card">
+                            <h3>2023-2024 VEXU Over Under Robot Code</h3>
+                            <p>Robot code for a 15 inch and a 24 inch robot to pickup and score roleaux tetrahedrons under nets on a 12x12 ft field. Written in an library of C++ developed by Purdue University's VEXU team called PROS with both driver control and autonomous portions</p>
+                            <a href="https://github.com/ref020/BoltdogVexUOverUnder" class="project-link">View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <h2>Other Projects</h2>
+                    <div class="projects-grid">
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <h3>One-off class codes</h3>
+                                <p>Single coding assignments for classes</p>
+                                <a href="https://github.com/ref020/ClassCodes" class="project-link">View on GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <h3>Website for Louisiana Tech Wrestling</h3>
+                                <p>A website built to showcase the Louisiana Tech Wrestling team, including schedules, rosters, and news updates.</p>
+                                <a href="https://github.com/LATechWrestling/latechwrestling.github.io" class="project-link">View on GitHub</a>
+                                <a href="https://latechwrestling.github.io" class="project-link">View Website</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2>Planned Projects</h2>
+                    
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3>Fantasy Wrestling League Manager Tool</h3>
+                            <p>An app or website designed to allow wrestling fans the ability to run season long or tournament specific fantasy leagues where team managers draft teams of wrestlers to score them points, similar to fantasy football leagues. This project is currently in its planning stages.</p>
+                            <a href="https://github.com/ref020/FantasyWrestlingLeagueManagerTool" class="project-link">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--
+            <section id="about" class="about-section">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <p>
+                        I'm a passionate software developer with experience in building web and mobile applications.
+                        I enjoy solving complex problems and learning new technologies.
+                    </p>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <h2>Contact</h2>
+                    <form class="contact-form">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+            -->
+        </main>
+        
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2024 Ray Favaza. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
